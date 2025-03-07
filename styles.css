@@ -54,3 +54,15 @@ ul, ol {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
+
+/* Navigation */
+
+.main-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-navigation ul {
+  display: flex;
+  gap: 20px
+}
