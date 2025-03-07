@@ -5,6 +5,8 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -19,4 +21,17 @@ ul, ol {
 .list {
   padding: 20px;
   list-style: disc;
+}
+
+.recipe-info {
+  display: flex;
+}
+
+.recipe-info li {
+  flex: 1
+}
+
+.recipe-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
