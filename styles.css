@@ -238,6 +238,7 @@ ul, ol {
 
 .recipe__image {
   width: 100%;
+  margin-bottom: 25px;
 }
 
 .recipe__name {
@@ -248,6 +249,10 @@ ul, ol {
 
 .recipe-info {
   background: #292524;
+  border-top: 5px solid #ff2056;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 50px -20px;
 }
 
 .recipe-info__label {
