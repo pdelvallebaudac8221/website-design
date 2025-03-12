@@ -105,6 +105,10 @@ ul, ol {
   background: #ff0;
 }
 
+.recipe-card:hover img {
+  width: 105%;
+}
+
 .recipe-card .tag {
   position: absolute;
   top: 20px;
@@ -113,17 +117,32 @@ ul, ol {
 
 .recipe-card img {
   display: block;
-  border-radius: 18px;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
+  transition: 250ms ease-in-out all;
+}
+
+.recipe-card__wrapper {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 18px;
+  position: relative;
 }
 
 .recipe-card__content {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   z-index: 10;
+  left: 0;
   bottom: 0;
+  height: 50%;
   padding: 30px 20px;
+  color: white;
+  background: linear-gradient(0deg, black, transparent);
 }
 
 .recipe-card__title {
