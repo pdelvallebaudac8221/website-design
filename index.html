@@ -12,10 +12,19 @@
       <div class="main-header__wrapper">
         <a href="/">Rad Recipes</a>
         <nav class="main-navigation">
-          <ul>
-            <li><a href="#">All Recipes</a></li>
-            <li><a href="/tips-and-tricks.html">Tips & Tricks</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+          <ul class="nav-list">
+            <li id="recipe-dropdown">
+              <div class="nav-label">Recipes ⌄</div>
+              <ul id="recipe-dropdown-submenu">
+                <li><a href="/category/appetizers.html">Appetizers</a></li>
+                <li><a href="/category/soup.html">Soup</a></li>
+                <li><a href="/category/dinner.html">Dinner</a></li>
+                <li><a href="/category/rice.html">Rice</a></li>
+                <li><a href="/category/pasta.html">Pasta</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-label" href="/tips-and-tricks.html">Tips & Tricks</a></li>
+            <li><a class="nav-label" href="/contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
